@@ -1,0 +1,219 @@
+/* Content Elements */
+
+#speak-settings {
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 2rem 2rem 6rem 2rem;
+}
+
+#speak-main {
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.speak-header {
+  width: 100%;
+  display: block;
+  margin: 2rem 0;
+  padding: 0 2rem;
+  .admin-title {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+ul.admin-section-toggle {
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+	background: #ffffff;
+  li {
+    width: 50%;
+    display: inline-block;
+    margin: 0;
+    padding: 2rem;
+    font-size: 2.6rem;
+    line-height: 3rem;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    background: rgba($primary,0.75);
+    @include transition(all 0.3s ease 0s);
+    cursor: pointer;
+    &.active {
+      background: #ffffff;
+      color: $primary;
+    }
+    &:not(.active):hover {
+      background: $secondary;
+    }
+  }
+}
+
+#speak-main {
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 2rem 0 0 0;
+  .form-table {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+		& > tbody > tr {
+			width: 100%;
+			display: block;
+			margin: 0;
+			padding: 0 0 4rem 0;
+		}
+  }
+	.section-wrap {
+		width: 100%;
+		display: block;
+		margin: 0;
+		padding: 6rem 0 0 0;
+		&:first-child {
+			padding: 0;
+		}
+	}
+  table, tbody {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    tr {
+      width: 100%;
+      display: block;
+      margin: 0;
+      padding: 0 0 4rem 0;
+      font-size: inherit;
+      &.add-row {
+        padding: 0;
+      }
+    }
+    td,th {
+      width: 100%;
+      display: block;
+      margin: 0;
+      padding: 0;
+      font-size: inherit;
+      vertical-align: top;
+    }
+    th {
+      font-size: 2rem;
+      line-height: 2.5rem;
+      padding: 0 2rem;
+    }
+  }
+}
+
+#speak-page .form-table > tbody > tr {
+  display: none;
+  opacity: 0;
+  @include transition(opacity 0.3s ease 0s);
+  &.active {
+    display: block;
+    opacity: 1;
+    @include transition(opacity 0.3s ease 0.3s);
+  }
+}
+
+.speak-meta-repeater {
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 2rem 0;
+  background: $light-grey;
+  > legend {
+    margin: 0 0 2rem 0;
+    padding: 0 2rem;
+  }
+  fieldset {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .repeater-rows {
+    position: relative;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .repeater-row {
+    position: relative;
+    width: 100%;
+    display: block;
+    margin: 0 0 0.1rem 0;
+    padding: 0 2rem 2rem 2rem;
+    background: #ffffff;
+    &.ui-sortable-placeholder {
+      background: #ffffff;
+      color: $light-grey;
+    }
+    .move-row-btn, .remove-row-btn {
+      position: absolute;
+      display: block;
+      top: calc(50% + 1rem);
+      margin: 0;
+      padding: 0.2rem;
+      font-size: 1.6rem;
+      line-height: 1.6rem;
+      @include transition(all 0.3s ease 0s);
+      opacity: 1;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+    .move-row-btn {
+      left: 1rem;
+      cursor: grab;
+    }
+    .remove-row-btn {
+      right: 1rem;
+      cursor: pointer;
+    }
+  }
+  .speak-btn {
+    margin: 2rem 2rem 0 2rem;
+  }
+  .repeater-clone {
+    display: none;
+  }
+}
+
+.ui-sortable-helper {
+  @include box-shadow(0 1rem 4rem rgba(0,0,0,0.33));
+  border-radius: 0.5rem;
+}
+
+.ui-sortable-placeholder {
+  position: relative;
+  visibility: visible !important;
+  &:before {
+    content: "Place Here";
+    position: absolute;
+    width: auto;
+    display: block;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: inherit;
+    @include transform(translate(-50%,-50%));
+  }
+}

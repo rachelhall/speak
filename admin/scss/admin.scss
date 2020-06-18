@@ -1,0 +1,46 @@
+/* Compile all imports */
+
+@import "globals/variables.scss";
+@import "globals/mixins.scss";
+@import "globals/reset.scss";
+@import "components/structure.scss";
+
+html {
+  font-size: 62.5%;
+}
+
+#speak-page {
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0 2rem 0 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#speak-page,
+.speak-meta-box {
+  &, * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+  }
+
+  .inside {
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 0 2rem 0 !important;
+    font-size: 0;
+    label {
+      line-height: 2rem;
+      margin: 0 0 1rem 0;
+    }
+  }
+
+  @import "forms/base.scss";
+  @import "elements/elements.scss";
+  @import "forms/buttons.scss";
+  @import "forms/elements.scss";
+}

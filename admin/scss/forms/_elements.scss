@@ -1,0 +1,353 @@
+/* Form Elements */
+
+.input-wrap {
+	position: relative;
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+	.input-required {
+		position: absolute;
+		width: 0.4rem;
+		height: 0.4rem;
+		display: block;
+		top: 1.8rem;
+		left: 1rem;
+		margin: 0;
+		padding: 0;
+		background: $red;
+	}
+}
+
+.toggle-switch {
+	input {
+		display: none;
+		&:checked + .slider-wrap {
+			background: $primary;
+			.slider {
+				@include transform(translateX(150%));
+			}
+		}
+	}
+	.slider-wrap {
+		position: relative;
+		width: 4.4rem;
+		height: 2rem;
+		display: inline-block;
+		float: right;
+		margin: 1rem 2rem 1rem 0;
+		padding: 0.2rem;
+		border-radius: 1rem;
+		background: $secondary;
+		@include transition(all 0.3s ease 0s);
+		font-size: 0;
+		.slider {
+			position: absolute;
+			width: 1.6rem;
+			height: 1.6rem;
+			top: 0.2rem;
+			left: 0.2rem;
+			display: block;
+			margin: 0;
+			padding: 0;
+			border-radius: 50%;
+			background: #ffffff;
+			@include transition(all 0.3s ease 0s);
+			@include transform(translateX(0));
+		}
+	}
+}
+
+.check-wrap {
+	width: 100%;
+	display: block;
+	margin: 0.5rem 0 0 0;
+	padding: 0;
+	label {
+		position: relative;
+		width: 100%;
+		display: inline-block;
+		margin: 0;
+		padding: 0 0 0 2rem;
+		font-size: 1.4rem;
+		@include transition(all 0.3s ease 0s);
+		vertical-align: top;
+		cursor: pointer;
+		opacity: 1;
+		&:hover {
+			opacity: 0.5;
+			.circle {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+	.checkbox {
+		position: absolute;
+		width: 1.5rem;
+		height: 1.5rem;
+		display: block;
+		top: 0.25rem;
+		left: 0;
+		margin: 0;
+		padding: 0;
+		.circle {
+			position: absolute;
+			width: 1rem;
+			height: 1rem;
+			display: block;
+			top: 50%;
+			left: 50%;
+			margin: 0;
+			padding: 0;
+			border: 1px solid $primary;
+			border-radius: 50%;
+			@include transition(all 0.3s ease 0s);
+			@include transform(translate(-50%,-50%));
+			.reverse & {
+				border-color: #ffffff;
+			}
+		}
+		.bar-left {
+			position: absolute;
+			width: 1px;
+			height: 0;
+			display: block;
+			bottom: 5px;
+			left: 50%;
+			margin: 0;
+			padding: 0;
+			background-color: $primary;
+			@include transition(all 0.3s ease 0s);
+			@include transform(rotate(-45deg));
+			transform-origin: bottom left;
+			.reverse & {
+				background-color: #ffffff;
+			}
+		}
+		.bar-bottom {
+			position: absolute;
+			width: 0;
+			height: 1px;
+			display: block;
+			bottom: 5px;
+			left: 50%;
+			margin: 0;
+			padding: 0;
+			background-color: $primary;
+			@include transition(all 0.3s ease 0s);
+			@include transform(rotate(-45deg));
+			transform-origin: bottom left;
+			.reverse & {
+				background-color: #ffffff;
+			}
+		}
+	}
+	input {
+		position: absolute;
+		display: block;
+		top: 0;
+		left: 0;
+		margin: 0;
+		padding: 0;
+		opacity: 0;
+		clip: rect(0px,0px,0px,0px);
+		&:checked + label .checkbox {
+			.circle {
+				width: 100%;
+				height: 100%;
+			}
+			.bar-left {
+				height: 6px;
+			}
+			.bar-bottom {
+				width: 14px;
+			}
+		}
+		&:focus + label {
+			opacity: 0.5;
+		}
+	}
+}
+
+.radio-wrap {
+	width: 100%;
+	display: block;
+	margin: 0.5rem 0 0 0;
+	padding: 0;
+	label {
+		position: relative;
+		width: 100%;
+		display: inline-block;
+		margin: 0;
+		padding: 0 0 0 2rem;
+		font-size: 1.4rem;
+		@include transition(all 0.3s ease 0s);
+		vertical-align: top;
+		cursor: pointer;
+		opacity: 1;
+		&:hover {
+			opacity: 0.5;
+			.circle {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+	.radio {
+		position: absolute;
+		width: 1.5rem;
+		height: 1.5rem;
+		display: block;
+		top: 0.25rem;
+		left: 0;
+		margin: 0;
+		padding: 0;
+		.circle {
+			position: absolute;
+			width: 1rem;
+			height: 1rem;
+			display: block;
+			top: 50%;
+			left: 50%;
+			margin: 0;
+			padding: 0;
+			border: 1px solid $primary;
+			border-radius: 50%;
+			@include transition(all 0.3s ease 0s);
+			@include transform(translate(-50%,-50%));
+			.reverse & {
+				border-color: #ffffff;
+			}
+		}
+		.dot {
+			position: absolute;
+			width: 0;
+			height: 0;
+			display: block;
+			top: 50%;
+			left: 50%;
+			margin: 0;
+			padding: 0;
+			background: $primary;
+			border-radius: 50%;
+			@include transition(all 0.3s ease 0s);
+			@include transform(translate(-50%,-50%));
+		}
+	}
+	input {
+		position: absolute;
+		display: block;
+		top: 0;
+		left: 0;
+		margin: 0;
+		padding: 0;
+		opacity: 0;
+		clip: rect(0px,0px,0px,0px);
+		&:checked + label .radio {
+			.circle {
+				width: 100%;
+				height: 100%;
+			}
+			.dot {
+				width: 0.8rem;
+				height: 0.8rem;
+			}
+		}
+		&:focus + label {
+			opacity: 0.5;
+		}
+	}
+}
+
+.select-wrap {
+	position: relative;
+	width: 100%;
+	display: block;
+	margin: 0.5rem 0 0 0;
+	padding: 0.9rem;
+	color: $secondary;
+	border: 0.1rem solid $secondary;
+	border-radius: 0.5rem;
+	@include transition(all 0.3s ease 0s);
+	cursor: pointer;
+	select {
+		height: 2rem;
+		line-height: 2rem;
+		padding: 0;
+		border: none;
+		border-radius: 0;
+	}
+	body:not(.touch-device) &:hover {
+		border-color: $primary;
+		background: #ffffff;
+		select {
+			color: $primary;
+		}
+		&:after {
+			color: $primary;
+		}
+	}
+	&:after {
+		content: "\e5d7";
+		position: absolute;
+		top: 1rem;
+		right: 1rem;
+		font-family: 'Material Icons';
+		font-size: 2rem;
+		line-height: 2rem;
+		color: $secondary;
+		display: block;
+		margin: 0;
+		padding: 0;
+		@include transition(all 0.3s ease 0s);
+	}
+	& + .sub-label {
+		padding: 0 2rem;
+	}
+}
+
+.file-wrap {
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+	.remove-image, .attach-image {
+		width: 4rem;
+		height: 4rem;
+		display: inline-block;
+		margin: 0 1rem 0 0;
+		font-size: 2rem;
+		line-height: 2rem;
+		border-radius: 0.5rem;
+		@include transition(all 0.3s ease 0s);
+		cursor: pointer;
+		vertical-align: top;
+	}
+	.remove-image {
+		padding: 1rem;
+		color: rgba($red,0);
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		&:hover {
+			color: rgba($red,1);
+		}
+	}
+	.attach-image {
+		padding: 0.9rem;
+		border: 0.1rem solid $secondary;
+		color: $secondary;
+		&:hover {
+			color: $primary;
+			border-color: $primary;
+		}
+	}
+	label {
+		width: auto;
+		display: inline-block;
+		margin: 0;
+		padding: 1rem 0;
+		vertical-align: top;
+	}
+}

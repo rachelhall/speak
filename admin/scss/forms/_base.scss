@@ -1,0 +1,239 @@
+/* Forms Base */
+
+button:not(.handlediv):not(.speak-btn),
+input,
+select,
+textarea {
+	color: $primary;
+	font-size: 100%; /* Corrects font size not being inherited in all browsers */
+	margin: 0; /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
+	vertical-align: top; /* Improves appearance and consistency in all browsers */
+	*vertical-align: middle; /* Improves appearance and consistency in all browsers */
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	outline: none;
+	background: none;
+	padding: 0;
+	max-width: 100%;
+}
+
+label, legend {
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-size: 1.6rem;
+}
+
+label {
+	line-height: 4rem;
+}
+
+legend {
+	line-height: 2rem;
+}
+
+button:not(.handlediv):not(.speak-btn),
+input {
+	line-height: normal; /* Addresses FF3/4 setting line-height using !important in the UA stylesheet */
+	*overflow: visible;  /* Corrects inner spacing displayed oddly in IE6/7 */
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	box-sizing: border-box; /* Addresses box sizing set to content-box in IE8/9 */
+	padding: 0; /* Addresses excess padding in IE8/9 */
+}
+
+input[type="search"] {
+	-webkit-appearance: textfield; /* Addresses appearance set to searchfield in S5, Chrome */
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box; /* Addresses box sizing set to border-box in S5, Chrome (include -moz to future-proof) */
+	box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-decoration { /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
+	-webkit-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner { /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
+	border: 0;
+	padding: 0;
+}
+
+input, textarea {
+	font-size: 1.6rem !important;
+	line-height: 2rem !important;
+	font-weight: 300;
+	@include transition(all 0.3s ease 0s);
+}
+
+input:not([type="checkbox"]):not([type="radio"]):not([type="select"]):not([type="file"]):not([type="submit"]):not([type="button"]),
+textarea {
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0.9rem;
+	color: $secondary;
+	border: 0.1rem solid $secondary;
+	border-radius: 0.5rem;
+	@include transition(all 0.3s ease 0s);
+	&:hover, &:focus {
+		color: $primary;
+		border-color: $primary;
+	}
+}
+
+input[type="file"] {
+	width: auto;
+	display: block;
+	margin: 0.5rem 0 0 0;
+	padding: 0 2rem;
+	font-size: 1.4rem;
+	line-height: 2rem;
+}
+
+input[type="submit"] {
+	width: auto;
+	display: inline-block;
+	margin: 0;
+	padding: 1rem 2rem;
+	font-size: 1.4rem;
+	font-weight: 300;
+	text-align: center;
+	color: #ffffff;
+	background-color: $primary;
+	border-radius: 0.5rem;
+	@include transition(all 0.3s ease 0s);
+	vertical-align: top;
+	body:not(.touch-device) &:hover {
+		background-color: $secondary;
+	}
+}
+
+select {
+	width: 100%;
+	height: 4rem;
+	min-height: initial !important;
+	display: block;
+	margin: 0;
+	padding: 0 0.9rem;
+	font-size: 1.6rem;
+	line-height: 4rem;
+	color: $secondary;
+	border: 0.1rem solid $secondary;
+	background: none !important;
+	border-radius: 0;
+	@include box-shadow(none !important);
+	outline: none !important;
+	@include transition(all 0.3s ease 0s);
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	cursor: pointer;
+	body:not(.touch-device) &:hover, &:focus {
+		color: $primary;
+		border-color: $primary;
+	}
+}
+
+textarea {
+	max-width: 100%;
+	overflow: hidden; /* Removes default vertical scrollbar in IE6/7/8/9 */
+	vertical-align: top; /* Improves readability and alignment in all browsers */
+	resize: none;
+}
+
+input.invisible {
+	display: none;
+}
+
+/* Chrome, Safari */
+input::placeholder,
+textarea::placeholder {
+	font-weight: 300;
+	text-transform: uppercase;
+	color: $secondary;
+	@include transition(all 0.3s ease 0s);
+}
+input:hover::placeholder,
+input:focus::placeholder,
+textarea:hover::placeholder,
+textarea:focus::placeholder {
+	color: $primary;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+	font-weight: 300;
+	text-transform: uppercase;
+	color: $secondary;
+	@include transition(all 0.3s ease 0s);
+}
+input:hover::-webkit-input-placeholder,
+input:focus::-webkit-input-placeholder,
+textarea:hover::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+	color: $primary;
+}
+
+/* Firefox */
+input:-moz-placeholder {
+	font-weight: 300;
+	text-transform: uppercase;
+	color: $secondary;
+	@include transition(all 0.3s ease 0s);
+}
+input:hover:-moz-placeholder,
+input:focus:-moz-placeholder,
+textarea:hover:-moz-placeholder,
+textarea:focus:-moz-placeholder {
+	color: $primary;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+	font-weight: 300;
+	text-transform: uppercase;
+	color: $secondary;
+	@include transition(all 0.3s ease 0s);
+}
+input:hover::-moz-placeholder,
+input:focus::-moz-placeholder,
+textarea:hover::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+	color: $primary;
+}
+
+/* IE, Edge */
+input:-ms-input-placeholder
+textarea:-ms-input-placeholder {
+	font-weight: 300;
+	text-transform: uppercase;
+	color: $secondary;
+	@include transition(all 0.3s ease 0s);
+}
+input:hover:-ms-input-placeholder,
+input:focus:-ms-input-placeholder,
+textarea:hover:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder {
+	color: $primary;
+}
+
+input::-ms-input-placeholder
+textarea::-ms-input-placeholder {
+	font-weight: 300;
+	text-transform: uppercase;
+	color: $secondary;
+	@include transition(all 0.3s ease 0s);
+}
+input:hover::-ms-input-placeholder,
+input:focus::-ms-input-placeholder,
+textarea:hover::-ms-input-placeholder,
+textarea:focus::-ms-input-placeholder {
+	color: $primary;
+}

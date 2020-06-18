@@ -1,0 +1,105 @@
+/* Global Mixins */
+
+@mixin transition($args...) {
+	-webkit-transition: $args;
+	-moz-transition: $args;
+	-ms-transition: $args;
+	-o-transition: $args;
+	transition: $args;
+}
+
+@mixin transform($args...) {
+	-webkit-transform: $args;
+	-moz-transform: $args;
+	-ms-transform: $args;
+	-o-transform: $args;
+	transform: $args;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+@mixin box-shadow($args...) {
+	-webkit-box-shadow: $args;
+	-moz-box-shadow: $args;
+	-ms-box-shadow: $args;
+	-o-box-shadow: $args;
+	box-shadow: $args;
+}
+
+@mixin animation($args...) {
+	-webkit-animation: $args;
+	-moz-animation: $args;
+	-ms-animation: $args;
+	-o-animation: $args;
+	animation: $args;
+}
+
+@mixin font-feature($args...) {
+	-webkit-font-feature-settings: $args;
+	-moz-font-feature-settings: $args;
+	font-feature-settings: $args;
+}
+
+@mixin flex-display(){
+	display: -webkit-box;
+  display: -webkit-flex;
+	display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@mixin flex-direction($dir){
+	@if $dir == row {
+		-webkit-box-orient: horizontal;
+	} @else {
+		-webkit-box-orient: vertical;
+	}
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: $dir;
+	-ms-flex-direction: $dir;
+	flex-direction: $dir;
+}
+
+@mixin flex-wrap($arg){
+	-webkit-flex-wrap: $arg;
+	-ms-flex-wrap: $arg;
+	flex-wrap: $arg;
+}
+
+@mixin align-items($compat,$align){
+	-webkit-box-align: $compat;
+	-moz-box-align: $align;
+	-ms-flex-align: $compat;
+	-webkit-align-items: $align;
+	align-items: $align;
+}
+
+@mixin align-content($compat,$align){
+	-ms-flex-line-pack: $compat;
+  align-content: $align;
+}
+
+@mixin justify-content($compat,$value){
+	-webkit-box-pack: $compat;
+  -webkit-justify-content: $value;
+  -ms-flex-pack: $compat;
+  justify-content: $value;
+}
+
+@mixin flex($grow,$shrink,$basis){
+	-webkit-box-flex: $grow;
+  -webkit-flex: $grow $shrink $basis;
+  -ms-flex: $grow $shrink $basis;
+  flex: $grow $shrink $basis;
+}
+
+@mixin order($num){
+	-webkit-box-ordinal-group: $num;
+	-moz-box-ordinal-group: $num;
+	-ms-flex-order: $num;
+	-webkit-order: $num;
+	order: $num;
+}

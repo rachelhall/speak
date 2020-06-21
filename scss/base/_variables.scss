@@ -6,8 +6,8 @@ $primary: #e01212;
 
 /* ============ Fonts ============ */
 
-$serif: 'Playfair Display', serif;
-$sans-serif: 'Open Sans', sans-serif;
+$serif: "Playfair Display", serif;
+$sans-serif: "Open Sans", sans-serif;
 
 /* ============ Breakpoints ============ */
 
@@ -38,6 +38,3 @@ $sans-serif: 'Open Sans', sans-serif;
     @content;
   }
 }
-
-
-

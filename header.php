@@ -67,20 +67,30 @@
     <!--<![endif]-->
     <div id="page" class="hfeed site">
 
-        <div id="search-modal">
-            <span id="search-close">Close</span>
-            <?php get_search_form(); ?>
-            <p>Enter a search request and press enter. Press Esc or the X to close.</p>
-        </div>
-
-        <header>
-            <div class="logo-wrap">
-                <a class="logo-link" href="/" title="Homepage"><?php the_custom_logo(); ?></a>
-            </div>
-            <?php
+        <header class="header">
+            <?php get_template_part( '/templates/parts/header/topnav' ) ?>
+            <div class="hero">
+                <div class="hero__overlay"><img
+                        src="<?php echo get_template_directory_uri() . '/public/SVGs/BannerShapeToMask.svg' ?>" alt="">
+                </div>
+                <?php
 				get_template_part( '/templates/parts/nav')
-			?>
-            <button type="button" id="sidecar-toggle"><?php esc_html_e( 'Menu', 'speak' ); ?></button>
+                ?>
+                <div class="hero__copy">
+                    <div class="hero__copy--container">
+
+                        <div class="hero__copy--bold">
+                            <p>Teaching</p>
+                            <p>Manup</p>
+                        </div>
+                        <div class="hero__copy--thin">
+                            <img src="<?php echo get_template_directory_uri() . '/public/SVGs/GoldStroke.svg' ?>">
+                            <p>Rise to the occasion</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </header>
 
         <div id="content">

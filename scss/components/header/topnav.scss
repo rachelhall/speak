@@ -1,0 +1,43 @@
+.topnav {
+  display: flex;
+  background: $blue;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  max-height: 32px;
+  font-family: $montserrat;
+  &__background {
+    width: 110%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    transform: scale(1.25);
+  }
+  &__header {
+    color: $green;
+    font-family: $montserrat;
+    text-transform: uppercase;
+    font-size: 18px;
+    position: relative;
+    z-index: 4;
+  }
+  &__logo {
+    position: relative;
+    z-index: 4;
+    transform: translateY(64px);
+  }
+  &__ul {
+    display: flex;
+    color: white;
+    position: relative;
+    z-index: 4;
+  }
+  li {
+    padding: 8px;
+    text-transform: uppercase;
+    img {
+      padding: 2px 6px 0;
+    }
+  }
+}

@@ -1,6 +1,22 @@
-.nav {
+.mainnav {
+  position: relative;
+  z-index: 3;
   &__ul {
-    background: green;
+    position: relative;
     display: flex;
+    justify-content: space-evenly;
+    &:nth-child(3) {
+      border: 1px solid red;
+    }
+    li {
+      font-size: 22px;
+      color: white;
+      font-weight: 700;
+      font-family: $montserrat;
+    }
   }
+}
+
+.mainnav__ul:nth-child(2) {
+  border: 1px solid red;
 }

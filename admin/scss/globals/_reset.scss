@@ -3,28 +3,29 @@
 
 html {
   font-size: 16px;
-  font-size: 62.5%;
+  //   font-size: 62.5%;
 }
 
 .assistive-text {
-	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-	clip: rect(1px, 1px, 1px, 1px);
-	position: absolute !important;
-	top: -999999px;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  top: -999999px;
 }
 
-i, .material-icons {
-	display: inline-block;
-	font-size: inherit;
-	line-height: inherit;
-	color: inherit;
-	vertical-align: top;
+i,
+.material-icons {
+  display: inline-block;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  vertical-align: top;
 }
 
 .hddn {
   visibility: hidden !important;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-	clip: rect(1px, 1px, 1px, 1px);
-	position: absolute !important;
-	top: -999999px;
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  top: -999999px;
 }

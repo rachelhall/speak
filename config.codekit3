@@ -596,6 +596,615 @@
 		"oAP": "/phpcs.xml.dist",
 		"oF": 1
 		},
+	"/public/images/current fellows.jpg": {
+		"ft": 16384,
+		"iS": 323328,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/images/current fellows.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public/images/header-bg.jpg": {
+		"ft": 16384,
+		"iS": 9615166,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/images/header-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public/images/header-with-screen.png": {
+		"ft": 32768,
+		"iS": 2918921,
+		"oA": 0,
+		"oAP": "/public/images/header-with-screen.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/header-with-screen@2x.png": {
+		"ft": 32768,
+		"iS": 11473825,
+		"oA": 0,
+		"oAP": "/public/images/header-with-screen@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/headshots/Aaron Walker.png": {
+		"ft": 32768,
+		"iS": 342148,
+		"oA": 0,
+		"oAP": "/public/images/headshots/Aaron Walker.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/headshots/Aldtric Johnson.png": {
+		"ft": 32768,
+		"iS": 732087,
+		"oA": 0,
+		"oAP": "/public/images/headshots/Aldtric Johnson.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/headshots/Broderick Stevens.png": {
+		"ft": 32768,
+		"iS": 113678,
+		"oA": 0,
+		"oAP": "/public/images/headshots/Broderick Stevens.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/headshots/Courtney Covington.png": {
+		"ft": 32768,
+		"iS": 278433,
+		"oA": 0,
+		"oAP": "/public/images/headshots/Courtney Covington.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/headshots/Craid Robinson.png": {
+		"ft": 32768,
+		"iS": 671030,
+		"oA": 0,
+		"oAP": "/public/images/headshots/Craid Robinson.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/headshots/Curley Harris.png": {
+		"ft": 32768,
+		"iS": 266994,
+		"oA": 0,
+		"oAP": "/public/images/headshots/Curley Harris.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/headshots/Derrick Squaire.png": {
+		"ft": 32768,
+		"iS": 759528,
+		"oA": 0,
+		"oAP": "/public/images/headshots/Derrick Squaire.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/headshots/Grant Wells.png": {
+		"ft": 32768,
+		"iS": 294098,
+		"oA": 0,
+		"oAP": "/public/images/headshots/Grant Wells.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/headshots/James Kilpatrick.png": {
+		"ft": 32768,
+		"iS": 1031262,
+		"oA": 0,
+		"oAP": "/public/images/headshots/James Kilpatrick.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/headshots/Jeffrey Veale.png": {
+		"ft": 32768,
+		"iS": 558498,
+		"oA": 0,
+		"oAP": "/public/images/headshots/Jeffrey Veale.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/headshots/Jerron Taylor.png": {
+		"ft": 32768,
+		"iS": 486021,
+		"oA": 0,
+		"oAP": "/public/images/headshots/Jerron Taylor.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/headshots/Josh Webster.png": {
+		"ft": 32768,
+		"iS": 1316599,
+		"oA": 0,
+		"oAP": "/public/images/headshots/Josh Webster.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/headshots/JT Brooks.png": {
+		"ft": 32768,
+		"iS": 569215,
+		"oA": 0,
+		"oAP": "/public/images/headshots/JT Brooks.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/headshots/Karmen Saulsberry.png": {
+		"ft": 32768,
+		"iS": 237284,
+		"oA": 0,
+		"oAP": "/public/images/headshots/Karmen Saulsberry.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/headshots/Laderrick Williams.png": {
+		"ft": 32768,
+		"iS": 321952,
+		"oA": 0,
+		"oAP": "/public/images/headshots/Laderrick Williams.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/headshots/Lontavious McMiller.png": {
+		"ft": 32768,
+		"iS": 729659,
+		"oA": 0,
+		"oAP": "/public/images/headshots/Lontavious McMiller.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/headshots/Terrance Riley.png": {
+		"ft": 32768,
+		"iS": 317522,
+		"oA": 0,
+		"oAP": "/public/images/headshots/Terrance Riley.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/headshots/Tommie Stewart.png": {
+		"ft": 32768,
+		"iS": 632001,
+		"oA": 0,
+		"oAP": "/public/images/headshots/Tommie Stewart.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/headshots/Travis Griggs.png": {
+		"ft": 32768,
+		"iS": 459878,
+		"oA": 0,
+		"oAP": "/public/images/headshots/Travis Griggs.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/iStock-1045328078.png": {
+		"ft": 32768,
+		"iS": 151451,
+		"oA": 0,
+		"oAP": "/public/images/iStock-1045328078.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/iStock-1045328078@2x.png": {
+		"ft": 32768,
+		"iS": 425350,
+		"oA": 0,
+		"oAP": "/public/images/iStock-1045328078@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/teacher-classroom.jpg": {
+		"ft": 16384,
+		"iS": 205689,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/images/teacher-classroom.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public/images/Union 8.png": {
+		"ft": 32768,
+		"iS": 3757663,
+		"oA": 0,
+		"oAP": "/public/images/Union 8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/SVGs/!?Drawing.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/!?Drawing.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/ActivePageCircle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/ActivePageCircle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/Arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/Arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/AtomDrawing.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/AtomDrawing.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/BannerShapeToMask.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/BannerShapeToMask.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/CalendarListorGridBrush.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/CalendarListorGridBrush.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/CircleForStats.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/CircleForStats.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/DivisionDrawing.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/DivisionDrawing.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/DottedLine_DonatePage.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/DottedLine_DonatePage.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/DrawnLines.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/DrawnLines.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/DropdownBrush.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/DropdownBrush.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/EventsBrush.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/EventsBrush.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/Facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/Facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/FellowsBrush.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/FellowsBrush.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/FilterBrush.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/FilterBrush.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/FooterBrush.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/FooterBrush.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/GlobeDrawing.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/GlobeDrawing.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/GoldStroke.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/GoldStroke.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/Instagram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/Instagram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/LightbulbDrawing.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/LightbulbDrawing.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/manup-logo-stroke.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/manup-logo-stroke.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/PaperairplaneDrawing.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/PaperairplaneDrawing.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/PaperclipDrawing.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/PaperclipDrawing.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/Path 13571.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/Path 13571.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/ScopeDrawing.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/ScopeDrawing.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/StarDrawing.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/StarDrawing.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/topnav-header-underline.png": {
+		"ft": 32768,
+		"iS": 552,
+		"oA": 0,
+		"oAP": "/public/SVGs/topnav-header-underline.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/SVGs/topnav-header-underline.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/topnav-header-underline.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/topnav-header-underline@2x.png": {
+		"ft": 32768,
+		"iS": 977,
+		"oA": 0,
+		"oAP": "/public/SVGs/topnav-header-underline@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/SVGs/topnav.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/topnav.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/Twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/Twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/README.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -651,6 +1260,19 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/scss/_theme.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_theme.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
 		},
 	"/scss/base/.ds_store": {
 		"cB": 0,
@@ -781,6 +1403,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/components/_sidecar.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/components/header/topnav.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/components/header/topnav.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -994,13 +1629,13 @@
 		"oAP": "/single.php",
 		"oF": 1
 		},
-	"/style.css": {
+	"/style.min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/style-min.css",
+		"oAP": "/style.min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -1056,6 +1691,14 @@
 		"oA": 1,
 		"oAP": "/templates/parts/content.php",
 		"oF": 1
+		},
+	"/templates/parts/header/topnav.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/parts/header/topnav.php",
+		"oF": 0
 		},
 	"/templates/parts/nav.php": {
 		"cB": 0,

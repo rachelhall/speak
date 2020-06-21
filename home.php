@@ -9,20 +9,18 @@
 
 get_header(); ?>
 
-	<div id="home">
-		<div class="body-overlay"></div>
+<div id="home">
+    <div class="body-overlay"></div>
 
-		<section id="home-main">
+    <section id="home-main">
 
-			<?php
+        <?php
 				if ( have_posts() ) :
 
 					if ( is_home() && ! is_front_page() ) :
 						?>
-						<header>
-							<h1 class="h1"><?php single_post_title(); ?></h1>
-						</header>
-						<?php
+
+        <?php
 					endif;
 
 					while ( have_posts() ) :
@@ -45,12 +43,12 @@ get_header(); ?>
 
 				endif;
 			?>
-		</section>
+    </section>
 
-	</div><!-- #primary -->
+</div><!-- #primary -->
 
-	<aside id="secondary">
-		<?php dynamic_sidebar( 'sidebar-1' ); ?>
-	</aside><!-- #secondary -->
+<aside id="secondary">
+    <?php dynamic_sidebar( 'sidebar-1' ); ?>
+</aside><!-- #secondary -->
 
 <?php get_footer();

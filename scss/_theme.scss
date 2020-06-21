@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Covered+By+Your+Grace&family=Montserrat:wght@300;700;800&display=swap");
+
+// colors
+$blue: #172553;
+$gold: #be8723;
+$green: #48c36b;
+
+// fonts
+$anton: "Anton", sans-serif;
+$covered: "Covered By Your Grace", cursive;
+$montserrat: "Montserrat", sans-serif;
+
+p,
+li,
+a {
+  font-size: 18px;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

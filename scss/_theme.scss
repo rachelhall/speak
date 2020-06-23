@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Covered+By+Your+Grace&family=Montserrat:wght@300;700;800&display=swap");
 
 // colors
+$black: #252122;
 $blue: #172553;
 $gold: #be8723;
 $green: #48c36b;
+$periwinkle: #436cde;
 
 // fonts
 $anton: "Anton", sans-serif;
@@ -15,6 +17,7 @@ li,
 a {
   font-size: 18px;
   color: inherit;
+  font-size: 1rem;
 }
 li {
   list-style: none;

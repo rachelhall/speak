@@ -1,0 +1,38 @@
+.quiz {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 460px;
+  background-image: url("public/SVGs/quiz-bg.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: $anton;
+  text-transform: uppercase;
+  color: $blue;
+  &__question {
+    margin-top: 3rem;
+    font-size: 1.75rem;
+    max-width: 360px;
+    text-align: center;
+    line-height: 1.25;
+  }
+  &__answers {
+    display: flex;
+    font-weight: 100;
+    &--option {
+      font-size: 0.75rem;
+      margin: 1.5rem 1.75rem;
+      &::after {
+        content: url("public/SVGs/black-underline.svg");
+        display: block;
+        transform: scale(0.35);
+        position: absolute;
+        margin-top: -33px;
+        margin-left: -68px;
+        height: 100px;
+      }
+    }
+  }
+}

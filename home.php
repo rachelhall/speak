@@ -13,6 +13,9 @@ get_header(); ?>
     <div class="body-overlay"></div>
 
     <section id="home-main">
+        <?php 	get_template_part( 'templates/parts/blocks/whyManup' ); ?>
+        <?php 	get_template_part( 'templates/parts/blocks/quiz' ); ?>
+        <?php 	get_template_part( 'templates/parts/blocks/fellows-banner' ); ?>
 
         <?php
 				if ( have_posts() ) :

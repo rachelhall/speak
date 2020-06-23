@@ -1,5 +1,6 @@
-<div class="topnav">
-    <img src="<?php echo get_template_directory_uri() . '/public/SVGs/topnav.svg' ?>" class="topnav__background">
+<div class="topnav"
+    style="background-image: url(<?php echo get_template_directory_uri() . '/public/SVGs/topnav.svg' ?>)">
+    <!-- <img src="<?php echo get_template_directory_uri() . '/public/SVGs/topnav.svg' ?>" class="topnav__background"> -->
     <div class="topnav__header--container">
         <p class='topnav__header'>The Praxis Academy</p>
         <img src="<?php echo get_template_directory_uri() . '/public/SVGs/topnav-header-underline.svg' ?>">

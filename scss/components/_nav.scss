@@ -1,22 +1,23 @@
 .mainnav {
   position: relative;
   z-index: 3;
+  margin-top: 1rem;
   &__ul {
     position: relative;
     display: flex;
     justify-content: space-evenly;
-    &:nth-child(3) {
-      border: 1px solid red;
-    }
+
     li {
-      font-size: 22px;
+      font-size: 1rem;
       color: white;
       font-weight: 700;
       font-family: $montserrat;
+      &:nth-child(3) {
+        margin-left: 128px;
+      }
+      a {
+        font-size: 0.75rem;
+      }
     }
   }
-}
-
-.mainnav__ul:nth-child(2) {
-  border: 1px solid red;
 }

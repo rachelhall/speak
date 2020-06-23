@@ -596,15 +596,37 @@
 		"oAP": "/phpcs.xml.dist",
 		"oF": 1
 		},
-	"/public/images/current fellows.jpg": {
+	"/public/images/current-fellows.jpg": {
 		"ft": 16384,
 		"iS": 323328,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/public/images/current fellows.jpg",
+		"oAP": "/public/images/current-fellows.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/public/images/fellows-screen.jpg": {
+		"ft": 16384,
+		"iS": 285382,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/images/fellows-screen.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/public/images/fellows-screen@2x.jpg": {
+		"ft": 16384,
+		"iS": 979239,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/images/fellows-screen@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public/images/header-bg.jpg": {
@@ -624,8 +646,8 @@
 		"oA": 0,
 		"oAP": "/public/images/header-with-screen.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -879,6 +901,17 @@
 		"oAP": "/public/images/teacher-classroom.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/public/images/teacher-classroom@2x.jpg": {
+		"ft": 16384,
+		"iS": 1251212,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/images/teacher-classroom@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -938,6 +971,26 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/public/SVGs/BannerShapeToMask.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/black-circle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/black-circle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/black-underline.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/black-underline.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1093,6 +1146,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/public/SVGs/lines-yellow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/lines-yellow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/public/SVGs/manup-logo-stroke.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1128,6 +1191,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/public/SVGs/Path 13571.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/quiz-bg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/quiz-bg.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1200,6 +1273,36 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/public/SVGs/Twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/two-percent.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/two-percent.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/underline-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/underline-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/wide-brush-blue.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/wide-brush-blue.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1420,6 +1523,45 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/scss/components/parts/blocks/fellows-banner.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/components/parts/blocks/fellows-banner.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/components/parts/blocks/quiz.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/components/parts/blocks/quiz.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/components/whyManup.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/components/whyManup.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/scss/external/.ds_store": {
 		"cB": 0,
 		"ft": 8192,
@@ -1629,6 +1771,26 @@
 		"oAP": "/single.php",
 		"oF": 1
 		},
+	"/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/style.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1648,7 +1810,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/style.min.css",
-		"oF": 2,
+		"oF": 3,
 		"oS": 3,
 		"sct": 1
 		},
@@ -1659,6 +1821,30 @@
 		"oA": 1,
 		"oAP": "/templates/page-full-width.php",
 		"oF": 1
+		},
+	"/templates/parts/blocks/fellows-banner.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/parts/blocks/fellows-banner.php",
+		"oF": 0
+		},
+	"/templates/parts/blocks/quiz.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/parts/blocks/quiz.php",
+		"oF": 0
+		},
+	"/templates/parts/blocks/whyManup.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/parts/blocks/whyManup.php",
+		"oF": 0
 		},
 	"/templates/parts/content-none.php": {
 		"cB": 0,

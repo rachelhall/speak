@@ -1,0 +1,75 @@
+.recent-posts {
+  padding: 2rem 5rem;
+  &__heading {
+    color: $blue;
+    font-family: $anton;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  &__all-posts {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+    &:nth-child(1) {
+      //   grid-row: 1 / span 2;
+      border: 5px solid red;
+    }
+  }
+  &__single-post {
+    display: flex;
+    background-color: $blue;
+    color: white;
+    &--heading {
+      font-family: $anton;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+    }
+    &--text {
+      font-family: $montserrat;
+      padding: 1rem 2rem;
+      p {
+        font-size: 0.75rem;
+      }
+      .learn-more {
+        a {
+          color: $periwinkle;
+          font-family: $anton;
+          text-transform: uppercase;
+          letter-spacing: 1.15px;
+          font-size: 0.75rem;
+        }
+      }
+    }
+    h2 {
+      text-transform: uppercase;
+      font-family: $anton;
+      letter-spacing: 1.5px;
+    }
+    img {
+      width: 35%;
+      height: 100%;
+      object-position: center top;
+      object-fit: cover;
+    }
+    &:first-child {
+      img {
+        width: 100%;
+        height: 12rem;
+        object-position: center top;
+      }
+      grid-row-start: 1;
+      grid-row-end: 4;
+      grid-column-start: 1;
+      display: block;
+      .excerpt {
+        display: block;
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+.excerpt {
+  display: none;
+}

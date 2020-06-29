@@ -1,5 +1,101 @@
 /* _footer.scss */
 
-footer {
-  
+.footer-main {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.footer-left {
+  background-image: url("public/SVGs/footer-background.svg");
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  &__row2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 2rem;
+  }
+  &__paragraph {
+    max-width: 70%;
+    font-size: 0.4rem;
+    font-weight: 600;
+    color: white;
+    font-family: $montserrat;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 2;
+  }
+  &__newsletter,
+  &__partners {
+    p {
+      font-weight: 600;
+      font-family: $helvetica;
+      color: white;
+      font-size: 0.5rem;
+    }
+    input {
+      margin-top: 0.5rem;
+      background-color: $blue;
+      border: 2px solid white;
+      background-image: url("public/SVGs/input-arrow.svg");
+      background-repeat: no-repeat;
+      background-position: center right;
+      background-size: contain;
+      background-origin: content-box;
+      padding: 0.25rem;
+    }
+    &--logo-container {
+      margin-top: 0.5rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 0.5rem;
+      justify-items: center;
+    }
+  }
+}
+.footer-right {
+  img {
+    width: 160px;
+    padding: 1rem;
+  }
+}
+
+.footer-nav {
+  ul {
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-family: $helvetica;
+    color: $gold;
+    a {
+      font-size: 0.5rem;
+      font-weight: 800;
+    }
+  }
+  &__social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    li {
+      padding: 0 0.5rem;
+      img {
+        width: 0.75rem;
+      }
+    }
+  }
+}
+.speak-copyright {
+  padding: 0.25rem;
+  background-color: $gold;
+  color: white;
+  font-size: 0.5rem;
+  font-family: $montserrat;
+  display: flex;
+  justify-content: center;
+
+  a,
+  p {
+    font-size: 0.5rem;
+  }
 }

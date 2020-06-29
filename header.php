@@ -69,29 +69,7 @@
 
         <header class="header">
             <?php get_template_part( '/templates/parts/header/topnav' ) ?>
-            <div class="hero">
-                <div class="hero__overlay"><img
-                        src="<?php echo get_template_directory_uri() . '/public/images/header-with-screen.png' ?>"
-                        alt="">
-                </div>
-                <?php
-				get_template_part( '/templates/parts/nav')
-                ?>
-                <div class="hero__copy">
-                    <div class="hero__copy--container">
 
-                        <div class="hero__copy--bold">
-                            <p>Teaching</p>
-                            <p>Manup</p>
-                        </div>
-                        <div class="hero__copy--thin">
-                            <img src="<?php echo get_template_directory_uri() . '/public/SVGs/GoldStroke.svg' ?>">
-                            <p>Rise to the occasion</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
         </header>
 
         <div id="content">

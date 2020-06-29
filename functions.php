@@ -133,3 +133,9 @@ function speak_widgets_init(){
   register_widget('speak_notification');
 }
 add_action('widgets_init','speak_widgets_init');
+
+
+function manup_excerpt_length( $length ) {
+  return 10;
+}
+add_filter( 'excerpt_length', 'manup_excerpt_length', 999 );

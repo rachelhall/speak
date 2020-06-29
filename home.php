@@ -10,48 +10,35 @@
 get_header(); ?>
 
 <div id="home">
-    <div class="body-overlay"></div>
 
-    <section id="home-main">
+    <section id="home-main" style="overflow: hidden;">
+        <div class="hero">
+            <div class="hero__overlay"><img src="<?php the_field('background_image') ?>" alt="">
+            </div>
+            <?php
+				get_template_part( '/templates/parts/nav')
+                ?>
+            <div class="hero__copy">
+                <div class="hero__copy--container">
+                    <div class="hero__copy--bold">
+                        <p><?php the_field('title')?></p>
+
+                    </div>
+                    <div class="hero__copy--thin">
+                        <img src="<?php echo get_template_directory_uri() . '/public/SVGs/GoldStroke.svg' ?>">
+                        <p><?php the_field('subtitle')?></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
         <?php 	get_template_part( 'templates/parts/blocks/whyManup' ); ?>
         <?php 	get_template_part( 'templates/parts/blocks/quiz' ); ?>
         <?php 	get_template_part( 'templates/parts/blocks/fellows-banner' ); ?>
-
-        <?php
-				if ( have_posts() ) :
-
-					if ( is_home() && ! is_front_page() ) :
-						?>
-
-        <?php
-					endif;
-
-					while ( have_posts() ) :
-						the_post();
-
-						/*
-						* Include the Post-Type-specific template for the content.
-						* If you want to override this in a child theme, then include a file
-						* called content-___.php (where ___ is the Post Type name) and that will be used instead.
-						*/
-						get_template_part( 'templates/parts/content', get_post_type() );
-
-					endwhile;
-
-					the_posts_navigation();
-
-				else :
-
-					get_template_part( 'templates/parts/content', 'none' );
-
-				endif;
-			?>
+        <?php 	get_template_part( 'templates/parts/blocks/recent-posts' ); ?>
+        <?php 	get_template_part( 'templates/parts/blocks/upcoming-events' ); ?>
     </section>
 
-</div><!-- #primary -->
-
-<aside id="secondary">
-    <?php dynamic_sidebar( 'sidebar-1' ); ?>
-</aside><!-- #secondary -->
+</div>
 
 <?php get_footer();

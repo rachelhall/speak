@@ -1,17 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Covered+By+Your+Grace&family=Montserrat:wght@300;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Covered+By+Your+Grace&family=Montserrat:wght@300;400;600;800&display=swap");
 
 // colors
 $black: #252122;
 $blue: #172553;
 $gold: #be8723;
 $green: #48c36b;
-$periwinkle: #436cde;
+$gray: #e7e8ee;
+$periwinkle: #538fe4;
+$periwinkle-alt: #436cde;
 
 // fonts
 $anton: "Anton", sans-serif;
 $covered: "Covered By Your Grace", cursive;
 $montserrat: "Montserrat", sans-serif;
-
+$helvetica: "Helvetica Neue", sans-serif;
 p,
 li,
 a {

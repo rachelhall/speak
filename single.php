@@ -9,16 +9,16 @@
 
 get_header(); ?>
 
-	<div id="post">
-		<section id="post-main">
+<div id="post">
+    <section id="post-main">
 
-		<?php
+        <?php
 		while ( have_posts() ) :
 			the_post();
 
 			get_template_part( 'templates/parts/content', get_post_type() );
 
-			the_post_navigation();
+			// the_post_navigation();
 
 			// If comments are open or we have at least one comment, load up the comment template.
 			if ( comments_open() || get_comments_number() ) :
@@ -28,7 +28,7 @@ get_header(); ?>
 		endwhile; // End of the loop.
 		?>
 
-		</section>
-	</div>
+    </section>
+</div>
 
 <?php get_footer();

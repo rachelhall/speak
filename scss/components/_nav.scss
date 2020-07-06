@@ -1,18 +1,20 @@
 .mainnav {
-  position: relative;
-  z-index: 3;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 10;
   margin-top: 1rem;
   &__ul {
     position: relative;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
     li {
       font-size: 1rem;
       color: white;
       font-weight: 700;
       font-family: $montserrat;
-      &:nth-child(3) {
+      &:nth-child(4) {
         margin-left: 128px;
       }
       a {

@@ -15,53 +15,36 @@
 get_header();
 ?>
 
-	<div id="primary" class="index">
-		<div class="body-overlay"></div>
+<div id="home">
 
-		<section class="default-main">
-			<div class="flex-container">
-				<!-- Must Use PageBody -->
-				<div class="flex-row">
-					<div class="flex-col-md-8 flex-col-sm-10 flex-col-md-offset-2 flex-col-sm-offset-1">
-						<?php
-							if ( have_posts() ) :
+    <section id="home-main" style="overflow: hidden;">
+        <div class="hero" style="background-image: url('<?php the_field('background_image') ?>')">
+            <!-- <div class="hero__image">
+			<img src="<?php the_field('background_image') ?>" alt="">
+		</div> -->
 
-								if ( is_home() && ! is_front_page() ) :
-									?>
-									<header>
-										<h1 class="h1"><?php single_post_title(); ?></h1>
-									</header>
-									<?php
-								endif;
+            <div class="hero__copy">
+                <div class="hero__copy--container">
+                    <div class="hero__copy--bold">
+                        <p><?php the_field('title')?></p>
+                    </div>
+                    <div class="hero__copy--thin">
+                        <img src="<?php echo get_template_directory_uri() . '/public/SVGs/GoldStroke.svg' ?>">
+                        <p><?php the_field('subtitle')?></p>
+                    </div>
+                </div>
+            </div>
 
-								/* Start the Loop */
-								while ( have_posts() ) :
-									the_post();
+        </div>
+        <?php 	get_template_part( 'templates/parts/blocks/whyManup' ); ?>
+        <?php 	get_template_part( 'templates/parts/blocks/quiz' ); ?>
+        <?php 	get_template_part( 'templates/parts/blocks/fellows-banner' ); ?>
+        <?php 	get_template_part( 'templates/parts/blocks/recent-posts' ); ?>
+        <?php 	get_template_part( 'templates/parts/blocks/upcoming-events' ); ?>
+    </section>
 
-									/*
-									* Include the Post-Type-specific template for the content.
-									* If you want to override this in a child theme, then include a file
-									* called content-___.php (where ___ is the Post Type name) and that will be used instead.
-									*/
-									get_template_part( 'templates/parts/content', get_post_type() );
-
-								endwhile;
-
-								the_posts_navigation();
-
-							else :
-
-								get_template_part( 'templates/parts/content', 'none' );
-
-							endif;
-							?>
-					</div>
-				</div>
-			</div>
-		</section>
-
-	</div><!-- #primary -->
+</div>
 
 <?php
-get_sidebar();
-get_footer();
+
+get_footer(); ?>

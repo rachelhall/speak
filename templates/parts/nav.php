@@ -1,6 +1,4 @@
-<nav class="flex-nav">
-    <?php get_template_part('sidecar'); ?>
-    <div class="mainnav">
+    <nav class="mainnav">
         <?php wp_nav_menu(array(
 					'theme_location' => 'menu-1',
 					'container'      => false,
@@ -10,5 +8,4 @@
 					'link_before' => '<span class="">',
   					'link_after' => '</span>',
 				)); ?>
-    </div>
-</nav>
+    </nav>

@@ -74,6 +74,8 @@ if(!function_exists('speak_setup')):
 		// Setup nav menus
     register_nav_menus(array('menu-1' => __('Primary Menu','speak')));
     register_nav_menus(array('menu-2' => __('Footer Menu','speak')));
+    register_nav_menus(array('topnav' => __('Top Bar Menu','speak')));
+    register_nav_menus(array('teacher-programs' => __('Teacher Programs','speak')));
 
 		// Set initial global variable content width. Will be overridden by theme.
 		$GLOBALS['content_width'] = apply_filters('speak_content_width',640);

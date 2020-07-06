@@ -69,7 +69,9 @@
 
         <header class="header">
             <?php get_template_part( '/templates/parts/header/topnav' ) ?>
-
+            <?php
+				get_template_part( '/templates/parts/nav')
+                ?>
         </header>
 
         <div id="content">

@@ -1,12 +1,13 @@
 .whyManupContent {
+  margin-top: -2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 60px;
+  margin: 0 4rem;
   &__left {
     &--img {
       height: 300px;
       width: auto;
-      margin-top: -100px;
+      margin-top: -150px;
       position: relative;
       z-index: 4;
       margin-left: 20px;
@@ -35,6 +36,7 @@
   &__right {
     margin-left: 3rem;
     position: relative;
+    max-width: 400px;
     &--heading {
       text-transform: uppercase;
       font-size: 2.5rem;
@@ -79,7 +81,7 @@
 
 .drawn-lines {
   transform: scale(0.65);
-  margin-bottom: -207px;
-  margin-left: 185px;
-  margin-top: -120px;
+  margin-bottom: -158px;
+  margin-left: 314px;
+  margin-top: -175px;
 }

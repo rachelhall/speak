@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Covered+By+Your+Grace&family=Montserrat:wght@300;400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Covered+By+Your+Grace&family=Montserrat:wght@300;400;500;600;800&display=swap");
 
 // colors
 $black: #252122;
@@ -27,4 +27,38 @@ li {
 
 a {
   text-decoration: none;
+}
+
+// Headings
+.heading-lg {
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.heading-md {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+.heading-sm {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 1rem;
+}
+
+.hero-heading {
+  font-style: 4rem;
+  font-family: $anton;
+  color: white;
+}
+
+%anton-blue {
+  font-family: $anton;
+  color: $blue;
+}
+
+.paragraph {
+  font-family: $montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
 }

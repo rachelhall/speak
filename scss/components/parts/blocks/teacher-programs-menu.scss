@@ -1,0 +1,13 @@
+.teacher-programs-menu {
+  font-family: $montserrat;
+  text-transform: uppercase;
+  li {
+    text-align: center;
+    margin: 2rem 0;
+    color: $blue;
+  }
+  span {
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+}

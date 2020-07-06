@@ -1,0 +1,56 @@
+.calendar-hero .manup-events-container {
+  margin: 2rem !important;
+}
+.calendar-hero {
+  min-height: 300px;
+  @extend %hero-background;
+  &__copy {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.hero__screen {
+  @extend %hero-screen;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1rem;
+  row-gap: 1.5rem;
+}
+
+.manup-event-title {
+  @extend %anton-blue;
+  line-height: 1;
+}
+
+.event-container {
+  background-color: $gray;
+  min-height: 350px;
+  max-width: 220px !important;
+}
+
+.featured-image-container {
+  max-height: 150px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+}
+
+.event-details {
+  margin: 1rem !important;
+}
+
+.manup-events-searchbar {
+  background-image: url("public/SVGs/events-search-background.svg");
+  &__input {
+    border: 5px solid red;
+  }
+}

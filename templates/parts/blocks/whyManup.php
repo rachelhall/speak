@@ -25,9 +25,9 @@
         <div style="display: flex ">
 
             <p class="whyManupContent__right--heading-small">Learn More</p>
-            <img class="drawn-lines" src="<?php echo get_template_directory_uri() . '/public/SVGs/DrawnLines.svg' ?>"
-                alt="">
         </div>
+        <img class="drawn-lines" src="<?php echo get_template_directory_uri() . '/public/SVGs/DrawnLines.svg' ?>"
+            alt="">
 
     </div>
 </div>

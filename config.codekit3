@@ -926,16 +926,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/public/SVGs/!?Drawing.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/public/SVGs/!?Drawing.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"/public/SVGs/ActivePageCircle.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1006,6 +996,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/public/SVGs/check-yellow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/check-yellow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/public/SVGs/CircleForStats.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1051,6 +1051,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/public/SVGs/DropdownBrush.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/events-search-background.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/events-search-background.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1166,6 +1176,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/public/SVGs/lines-black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/lines-black.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/lines-blue.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/lines-blue.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/public/SVGs/lines-yellow.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1196,6 +1226,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/public/SVGs/note-paper-tall.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/note-paper-tall.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/notepaper-blank.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/notepaper-blank.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/public/SVGs/PaperairplaneDrawing.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1221,6 +1271,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/public/SVGs/Path 13571.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/qualifications-background.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/qualifications-background.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1271,6 +1331,26 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/public/SVGs/StarDrawing.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/symbols-drawing.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/symbols-drawing.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/teacher-programs-heading-background.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/teacher-programs-heading-background.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1363,6 +1443,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/public/SVGs/underline-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/public/SVGs/underline-yellow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/SVGs/underline-yellow.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1541,7 +1631,7 @@
 		"oS": 0,
 		"sct": 1
 		},
-	"/scss/components/_header.scss": {
+	"/scss/components/_hero.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1549,7 +1639,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/components/_header.css",
+		"oAP": "/scss/components/_hero.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -1628,6 +1718,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/components/parts/blocks/recent-posts.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/components/parts/blocks/teacher-programs-menu.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/components/parts/blocks/teacher-programs-menu.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -1783,6 +1886,19 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/scss/pages/_calendar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/pages/_calendar.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/scss/pages/_default.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1831,6 +1947,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/pages/_styleguide.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/pages/donate.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/pages/donate.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/pages/teacher-programs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/pages/teacher-programs.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -1910,6 +2052,22 @@
 		"oS": 3,
 		"sct": 1
 		},
+	"/templates/about.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/about.php",
+		"oF": 0
+		},
+	"/templates/donate.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/donate.php",
+		"oF": 0
+		},
 	"/templates/page-full-width.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1940,6 +2098,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/parts/blocks/recent-posts.php",
+		"oF": 0
+		},
+	"/templates/parts/blocks/teacher-programs-menu.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/parts/blocks/teacher-programs-menu.php",
 		"oF": 0
 		},
 	"/templates/parts/blocks/upcoming-events.php": {
@@ -2014,1172 +2180,84 @@
 		"oAP": "/templates/parts/sidecar.php",
 		"oF": 1
 		},
-	"/tribe/events-pro/v2/base.php": {
+	"/templates/teacher-programs.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/base.php",
+		"oAP": "/templates/teacher-programs.php",
 		"oF": 0
 		},
-	"/tribe/events-pro/v2/components/after.php": {
+	"/tribe/events/v2/components/events-bar.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/after.php",
+		"oAP": "/tribe/events/v2/components/events-bar.php",
 		"oF": 0
 		},
-	"/tribe/events-pro/v2/components/before.php": {
+	"/tribe/events/v2/components/search/keyword.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/before.php",
+		"oAP": "/tribe/events/v2/components/search/keyword.php",
 		"oF": 0
 		},
-	"/tribe/events-pro/v2/components/breadcrumbs.php": {
+	"/tribe/events/v2/list.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/breadcrumbs.php",
+		"oAP": "/tribe/events/v2/list.php",
 		"oF": 0
 		},
-	"/tribe/events-pro/v2/components/breadcrumbs/breadcrumb.php": {
+	"/tribe/events/v2/list/event.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/breadcrumbs/breadcrumb.php",
+		"oAP": "/tribe/events/v2/list/event.php",
 		"oF": 0
 		},
-	"/tribe/events-pro/v2/components/breadcrumbs/linked-breadcrumb.php": {
+	"/tribe/events/v2/list/event/date.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/breadcrumbs/linked-breadcrumb.php",
+		"oAP": "/tribe/events/v2/list/event/date.php",
 		"oF": 0
 		},
-	"/tribe/events-pro/v2/components/breakpoints.php": {
+	"/tribe/events/v2/list/event/featured-image.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/breakpoints.php",
+		"oAP": "/tribe/events/v2/list/event/featured-image.php",
 		"oF": 0
 		},
-	"/tribe/events-pro/v2/components/data.php": {
+	"/tribe/events/v2/list/event/title.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/data.php",
+		"oAP": "/tribe/events/v2/list/event/title.php",
 		"oF": 0
 		},
-	"/tribe/events-pro/v2/components/events-bar.php": {
+	"/tribe/events/v2/list/event/venue.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/events-bar.php",
+		"oAP": "/tribe/events/v2/list/event/venue.php",
 		"oF": 0
 		},
-	"/tribe/events-pro/v2/components/events-bar/filters.php": {
+	"/tribe/events/v2/month.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/events-bar/filters.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/components/events-bar/search-button.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/events-bar/search-button.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/components/events-bar/search-button/icon.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/events-bar/search-button/icon.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/components/events-bar/search.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/events-bar/search.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/components/events-bar/search/keyword.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/events-bar/search/keyword.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/components/events-bar/search/submit.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/events-bar/search/submit.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/components/events-bar/tabs.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/events-bar/tabs.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/components/events-bar/views.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/events-bar/views.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/components/events-bar/views/list.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/events-bar/views/list.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/components/events-bar/views/list/item.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/events-bar/views/list/item.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/components/filter-bar.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/filter-bar.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/components/ical-link.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/ical-link.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/components/json-ld-data.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/json-ld-data.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/components/loader.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/loader.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/components/messages.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/messages.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/components/read-more.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/read-more.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/components/top-bar/actions.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/top-bar/actions.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/components/top-bar/actions/content.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/top-bar/actions/content.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/components/top-bar/today.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/components/top-bar/today.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/event.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/event.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/event/cost.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/event/cost.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/event/date.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/event/date.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/event/date/featured.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/event/date/featured.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/event/date/meta.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/event/date/meta.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/event/description.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/event/description.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/event/featured-image.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/event/featured-image.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/event/title.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/event/title.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/event/venue.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/event/venue.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/nav.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/nav.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/nav/next-disabled.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/nav/next-disabled.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/nav/next.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/nav/next.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/nav/prev-disabled.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/nav/prev-disabled.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/nav/prev.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/nav/prev.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/time-separator.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/time-separator.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/top-bar.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/top-bar.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/top-bar/datepicker.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/top-bar/datepicker.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/top-bar/nav.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/top-bar/nav.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/top-bar/nav/next-disabled.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/top-bar/nav/next-disabled.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/top-bar/nav/next.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/top-bar/nav/next.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/top-bar/nav/prev-disabled.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/top-bar/nav/prev-disabled.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/top-bar/nav/prev.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/top-bar/nav/prev.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/day/type-separator.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/day/type-separator.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/default-template.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/default-template.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/latest-past.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/latest-past.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/latest-past/event.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/latest-past/event.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/latest-past/event/cost.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/latest-past/event/cost.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/latest-past/event/date-tag.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/latest-past/event/date-tag.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/latest-past/event/date.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/latest-past/event/date.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/latest-past/event/date/featured.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/latest-past/event/date/featured.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/latest-past/event/date/meta.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/latest-past/event/date/meta.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/latest-past/event/description.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/latest-past/event/description.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/latest-past/event/featured-image.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/latest-past/event/featured-image.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/latest-past/event/title.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/latest-past/event/title.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/latest-past/event/venue.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/latest-past/event/venue.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/latest-past/heading.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/latest-past/heading.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/event.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/event.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/event/cost.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/event/cost.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/event/date-tag.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/event/date-tag.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/event/date.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/event/date.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/event/date/featured.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/event/date/featured.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/event/date/meta.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/event/date/meta.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/event/description.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/event/description.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/event/featured-image.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/event/featured-image.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/event/title.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/event/title.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/event/venue.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/event/venue.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/month-separator.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/month-separator.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/nav.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/nav.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/nav/next-disabled.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/nav/next-disabled.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/nav/next.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/nav/next.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/nav/prev-disabled.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/nav/prev-disabled.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/nav/prev.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/nav/prev.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/nav/today.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/nav/today.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/top-bar.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/top-bar.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/top-bar/datepicker.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/top-bar/datepicker.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/top-bar/nav.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/top-bar/nav.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/top-bar/nav/next-disabled.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/top-bar/nav/next-disabled.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/top-bar/nav/next.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/top-bar/nav/next.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/top-bar/nav/prev-disabled.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/top-bar/nav/prev-disabled.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/list/top-bar/nav/prev.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/list/top-bar/nav/prev.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/calendar-events.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/calendar-events.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/date.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/date.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/date/featured.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/date/featured.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/date/meta.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/date/meta.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/featured-image.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/featured-image.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/title.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/title.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/tooltip.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/tooltip.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/tooltip/cost.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/tooltip/cost.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/tooltip/date.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/tooltip/date.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/tooltip/date/featured.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/tooltip/date/featured.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/tooltip/date/meta.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/tooltip/date/meta.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/tooltip/description.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/tooltip/description.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/tooltip/featured-image.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/tooltip/featured-image.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/tooltip/title.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/calendar-events/calendar-event/tooltip/title.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/more-events.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/more-events.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/multiday-events.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/multiday-events.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/multiday-events/multiday-event-spacer.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/multiday-events/multiday-event-spacer.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/multiday-events/multiday-event.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/multiday-events/multiday-event.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/multiday-events/multiday-event/bar.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/multiday-events/multiday-event/bar.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/multiday-events/multiday-event/bar/featured.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/multiday-events/multiday-event/bar/featured.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/multiday-events/multiday-event/bar/title.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/multiday-events/multiday-event/bar/title.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/multiday-events/multiday-event/hidden.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/multiday-events/multiday-event/hidden.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/multiday-events/multiday-event/hidden/date.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/multiday-events/multiday-event/hidden/date.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/multiday-events/multiday-event/hidden/link.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/multiday-events/multiday-event/hidden/link.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/multiday-events/multiday-event/hidden/link/featured.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/multiday-events/multiday-event/hidden/link/featured.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-body/day/multiday-events/multiday-event/hidden/link/title.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-body/day/multiday-events/multiday-event/hidden/link/title.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/calendar-header.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/calendar-header.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/mobile-events.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/mobile-events.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/mobile-events/mobile-day.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/mobile-events/mobile-day.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/mobile-events/mobile-day/day-marker.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/mobile-events/mobile-day/day-marker.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/mobile-events/mobile-day/mobile-event.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/mobile-events/mobile-day/mobile-event.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/mobile-events/mobile-day/mobile-event/cost.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/mobile-events/mobile-day/mobile-event/cost.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/mobile-events/mobile-day/mobile-event/date.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/mobile-events/mobile-day/mobile-event/date.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/mobile-events/mobile-day/mobile-event/date/featured.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/mobile-events/mobile-day/mobile-event/date/featured.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/mobile-events/mobile-day/mobile-event/date/meta.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/mobile-events/mobile-day/mobile-event/date/meta.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/mobile-events/mobile-day/mobile-event/featured-image.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/mobile-events/mobile-day/mobile-event/featured-image.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/mobile-events/mobile-day/mobile-event/title.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/mobile-events/mobile-day/mobile-event/title.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/mobile-events/mobile-day/more-events.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/mobile-events/mobile-day/more-events.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/mobile-events/nav.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/mobile-events/nav.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/mobile-events/nav/next-disabled.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/mobile-events/nav/next-disabled.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/mobile-events/nav/next.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/mobile-events/nav/next.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/mobile-events/nav/prev-disabled.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/mobile-events/nav/prev-disabled.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/mobile-events/nav/prev.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/mobile-events/nav/prev.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/mobile-events/nav/today.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/mobile-events/nav/today.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/top-bar.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/top-bar.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/top-bar/datepicker.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/top-bar/datepicker.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/top-bar/nav.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/top-bar/nav.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/top-bar/nav/next-disabled.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/top-bar/nav/next-disabled.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/top-bar/nav/next.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/top-bar/nav/next.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/top-bar/nav/prev-disabled.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/top-bar/nav/prev-disabled.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/month/top-bar/nav/prev.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/month/top-bar/nav/prev.php",
-		"oF": 0
-		},
-	"/tribe/events-pro/v2/not-found.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tribe/events-pro/v2/not-found.php",
+		"oAP": "/tribe/events/v2/month.php",
 		"oF": 0
 		}
 	},

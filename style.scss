@@ -13,14 +13,20 @@
 // @import "scss/base/typography";
 // @import "scss/base/buttons";
 
-// /* ============ COMPONENTS ============ */
-@import "scss/components/header";
+/* ============ PAGES ============ */
+
+@import "scss/pages/donate.scss";
+@import "scss/pages/teacher-programs.scss";
+@import "scss/pages/calendar.scss";
+
+//  ============ COMPONENTS ============
+@import "scss/components/header/topnav.scss";
+@import "scss/components/hero";
 @import "scss/components/whyManup";
 @import "scss/components/parts/blocks/quiz";
 @import "scss/components/parts/blocks/fellows-banner.scss";
 @import "scss/components//parts/blocks/recent-posts.scss";
 @import "scss/components//parts/blocks/upcoming-events.scss";
-// @import "scss/components/flex-nav";
-// @import "scss/components/sidecar";
+@import "scss/components/parts/blocks/teacher-programs-menu.scss";
 @import "scss/components/footer";
 @import "scss/components/nav";
